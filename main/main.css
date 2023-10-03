@@ -1,0 +1,110 @@
+.container {
+    width: 1200px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0px auto;
+}
+
+.form {
+    margin-left: 350px;
+}
+
+.h1 {
+    margin-left: -100px;
+}
+
+/* tennis */
+
+.tennis__span {
+    width: 30px;
+    height: 30px;
+    border: 4px solid black;
+    border-radius: 4px;
+    transform: translateY(6px);
+    display: inline-block;
+}
+
+.tennis__list:checked + .tennis__span {
+    background-image: url("../img/table-tennis.png");
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+/* basketbal */
+
+.basketboll__span {
+    width: 30px;
+    height: 30px;
+    border: 4px solid black;
+    border-radius: 4px;
+    transform: translateY(6px);
+    display: inline-block;
+}
+
+.basketboll__list:checked + .basketboll__span {
+    background-image: url("../img/basketball-ball.png");
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+}
+
+/* volleyball */
+
+.volleyball__span {
+    width: 30px;
+    height: 30px;
+    border: 4px solid black;
+    border-radius: 4px;
+    transform: translateY(6px);
+    display: inline-block;
+}
+
+.volleyball__list:checked + .volleyball__span {
+    background-image: url("../img/volleyball-ball.png");
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+}
+
+/* hokkey */
+
+.hokkey__list:checked + .hokkey__span {
+    background-image: url("../img/hockey-puck.png");
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+    border: 4px solid black;
+    width: 30px;
+    height: 30px;
+}
+
+.hokkey {
+    border: 4px solid black;
+    width: 30px;
+    height: 30px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+/* button */
+
+.button {
+    padding: 8px 30px;
+    margin-top: 35px;
+    margin-left: 400px;
+    border: 2px solid blue;
+    text-decoration: none;
+    background-color: rgb(234, 220, 220);
+}
+
+.button:hover {
+    background-color: darkcyan;
+}
